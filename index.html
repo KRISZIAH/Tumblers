@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Finals</title>
+</head>
+<body>
+        <div class="card">
+            <input type="radio" name="addCard" id="closeCard" value="0" checked>
+            <input type="radio" name="addCard" id="openCard" value="1" >
+            <input type="radio" name="addCard" id="addCard" value="2" >
+            <div class="basicInfo">
+                <div class="title">
+                    <div class="category">Tumbler</div>
+                    <div class="name">Starbucks</div>
+                    <div class="info">New Products</div>
+                </div>
+                <div class="img">
+                    <div class="item">
+                        <input type="radio" name="color" id="green" checked>
+                        <img src="./Assets/img/Japan-Front.png" alt="">
+                    </div>
+                    <div class="item">
+                        <input type="radio" name="color" id="black">
+                        <img src="./Assets/img/Japan-Back.png" alt="">
+                    </div>
+                </div>
+                <div class="color">
+                    <label for="green">
+                        <div class="ellipse" style="background-color: #CADB6E;"></div>
+                    </label>
+                    <label for="black">
+                        <div class="ellipse" style="background-color: #2B2B2B;"></div>
+                    </label>
+                </div>
+
+                <div class="sizes">
+                    <label for="closeCard">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <label>
+                        <input type="radio" name="size" checked>
+                        S
+                    </label>
+                    <label>
+                        <input type="radio" name="size" checked>
+                        M
+                    </label>
+                    <label>
+                        <input type="radio" name="size" checked>
+                        L
+                    </label>
+                    <label for="addCard">
+                        <i class="fa-solid fa-check"></i>
+                    </label>
+                </div>   
+            </div>
+
+            <div class="mores">
+                <div class="price">$23.09</div>
+            <div class="start">
+                <i class="fa-regular fa-star text-yellow"></i>
+                <i class="fa-regular fa-star text-yellow"></i>
+                <i class="fa-regular fa-star text-yellow"></i>
+                <i class="fa-regular fa-star text-yellow"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+        </div>
+        <div class="addCard">
+            <label for="openCard">
+                <i class="fa-solid fa-basket-shopping"></i>
+            </label>
+            <div class="box"></div>
+        </div>
+        </div>
+
+</body>
+</html>
